@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  display: grid;
+  height: 100%;
+  place-items: center;
+  font-family: "Roboto", sans-serif;
+  background: #051800;
+}
+.wrapper {
+  height: 150px;
+  width: 350px;
+  background-color: #020202;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 5px 25px rgba(0, 238, 255, 0.8);
+}
+.display {
+    background-color: #2e2d2d;
+    padding: 15px;
+  height: 100px;
+  width: 295px;
+  text-align: center;
+}
+
+.wrapper .display #time {
+  color: #fff;
+  font-weight: 700;
+  font-size: 50px;
+  letter-spacing: 2px;
+}
+#period{
+    font-size: 16px;
+    position: absolute;
+    margin-left: 10px;
+    color: rgb(241, 180, 88);
+}
+#time span{
+    margin: 0 5px;
+}
+#hour{
+  color: rgb(247, 203, 85);
+}
+#min{
+    color: yellow;
+}
+#sec{
+    color: rgb(199, 248, 100);
+}
+.calender {
+    margin-top: 15px;
+}
+.calender .item{
+    color: #fff;
+    font-size: 19px;
+    letter-spacing: 1px;
+    margin-left: 10px;
+    color: rgb(0, 204, 255);
+}
